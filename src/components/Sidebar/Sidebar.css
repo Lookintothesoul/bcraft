@@ -1,0 +1,62 @@
+.menu {
+  position: absolute;
+  left: -156px;
+
+  display: flex;
+  gap: 16px;
+
+  height: 100%;
+  width: max-content;
+  padding: 16px;
+
+  background: #1a776f;
+  transition: 0.5s;
+}
+
+.menu.open {
+  left: 0;
+}
+
+.menu_content {
+  width: 140px;
+}
+
+.menu_toggle {
+  font-size: 20px;
+  color: #fff;
+
+  cursor: pointer;
+  transition: opacity, left 0.22s ease-in;
+}
+
+.menu_toggle:hover {
+  opacity: 0.7;
+}
+
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  height: 100vh;
+}
+
+.sidebar a {
+  text-decoration: none;
+}
+
+.nav_item {
+  max-width: 250px;
+  width: 100%;
+  text-align: center;
+  background: #f5f3eb;
+  padding: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: black;
+}
+
+.nav_item:hover {
+  box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.84);
+}

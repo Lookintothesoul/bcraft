@@ -1,0 +1,17 @@
+.container {
+  height: 100vh;
+  width: 100%;
+
+  padding-left: 64px;
+  background: #162b3f;
+
+  transition: 0.5s;
+}
+
+.container.isOpenMenu {
+  padding-left: 230px;
+}
+
+.container > main {
+  height: 100%;
+}

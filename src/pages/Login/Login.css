@@ -1,0 +1,24 @@
+.login_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.login_form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.login_form input {
+  background: #f5f3eb;
+  padding: 8px;
+  border-radius: 6px;
+}
+
+.login_form button {
+  background: #f5f3eb;
+  padding: 8px;
+  border-radius: 6px;
+}
